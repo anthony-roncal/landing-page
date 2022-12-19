@@ -90,13 +90,19 @@ ul {
 .quote {
     font-size: 36px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: lighter;
     color: #1F2937;
     background-color: #E5E7EB;
+    align-items: center;
+    padding: 80px 160px;
+}
+
+.quote p{
+    margin: 0;
 }
 
 .quote-name {
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: bold;
     color: #000000;
@@ -106,11 +112,40 @@ ul {
 .cta {
     display: flex;
     background-color: #3882F6;
+    margin: 80px 120px;
+    border-radius: 8px;
+    padding: 40px 80px;
+    color: #F9FAF8;
+    justify-content: space-between;
+}
+
+.cta p{
+    margin: 0;
+}
+
+.cta-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cta button {
+    border: 2px solid #F9FAF8;
+    padding: 8px 32px;
+    border-radius: 8px;
 }
 
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+button {
+    padding: 8px 32px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border-style: none;
+    font-weight: bold;
 }
 
 ul {
@@ -122,17 +157,4 @@ ul {
 a {
     text-decoration: none;
     color: #F9FAF8;
-}
-
-button {
-    padding: 5px 20px;
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-radius: 8px;
-    border-style: none;
-    font-weight: bold;
-}
-
-.cta button {
-    border-color: #F9FAF8
 }
