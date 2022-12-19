@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-image {
+    width: 300px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 200px;
+}
+
+.icon {
+    width: 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+.quote-name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    text-align: right;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882F6;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
