@@ -1,3 +1,3 @@
-# odin-landing-page
+# landing-page
 
-This is a practice project for The Odin Project: Landing Page.
+View app at: https://anthony-roncal.github.io/landing-page/
